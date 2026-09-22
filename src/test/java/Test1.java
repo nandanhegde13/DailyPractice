@@ -18,6 +18,7 @@ public class Test1 {
 		driver.findElement(By.id("confirmbtn")).click();
 		Thread.sleep(3000);
 		driver.switchTo().alert().dismiss();
+		driver.quit();
 	}
 
 }
