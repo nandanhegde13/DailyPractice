@@ -13,6 +13,8 @@ public class CapitalizeArrayElements {
 		arr.forEach(item->{if(item.length()==3)arr1.add(item.toUpperCase());});
         
 		arr1.forEach(item->System.out.println(item));
+
+		//Test
 		
 	}
 }
