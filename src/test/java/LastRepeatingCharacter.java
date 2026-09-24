@@ -12,7 +12,7 @@ public class LastRepeatingCharacter {
 			
 			char ch = name.charAt(i);
 			
-			for(int j=0;j<=name.length()-1;j++)
+			for(int j=0;j<name.length();j++)
 			{
 				if(j!=i && ch==name.charAt(j))
 				{
