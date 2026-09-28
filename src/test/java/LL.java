@@ -111,7 +111,8 @@ public class LL {
 		linkedList.addFirst("10");
 		linkedList.addFirst("20");
 		linkedList.printList();
-		
+		linkedList.deleteFirst();
+		linkedList.printList();
 	}
 	
 }
