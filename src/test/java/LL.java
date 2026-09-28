@@ -113,7 +113,7 @@ public class LL {
 		linkedList.printList();
 		linkedList.deleteFirst();
 		linkedList.printList();
-		linkedList.printList();
+		
 	}
 	
 }
